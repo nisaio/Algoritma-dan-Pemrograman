@@ -1,3 +1,5 @@
+//Studi kasus 10:Menghitung nilai rata-rata dan standar Deviasi?
+
 #include <iostream>
 #include <cmath>
 #include <iomanip>

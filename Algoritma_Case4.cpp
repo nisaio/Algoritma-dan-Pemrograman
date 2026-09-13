@@ -1,3 +1,5 @@
+//Studi Kasus 4:Konverter Mata Uang
+
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -17,7 +19,7 @@ int main(){
 
         dollar = rupiah / kurs_konversi;
 
-        cout << fixed << setprecision(2);
+        cout << fixed << setprecision(2); //Fixed digunakan agar nominal yg dikeluarkan berupa angka sebenarnya
         cout << "===============================" << endl;
         cout << "Jumlah rupiah: Rp" << rupiah << endl;
         cout << "Jumlah dollar: $" << dollar << endl;

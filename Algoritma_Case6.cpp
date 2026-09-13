@@ -1,3 +1,5 @@
+//Studi Kasus 6:Menghitung suhu rata-rata harian
+
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -12,7 +14,7 @@ float input_suhu(int hari) {
 }
 
 int main() {
-    float total_suhu, average;
+    float total_suhu, average; //average=rata-rata
 
     for (int i = 0; i<5; i++) {
         total_suhu += input_suhu(i+1);

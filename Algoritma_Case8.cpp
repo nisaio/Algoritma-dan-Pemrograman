@@ -1,3 +1,5 @@
+//Studi Kasus 8:Menghitung Biaya cat dinding sebuah ruangan 
+
 #include <iostream>
 #include <iomanip>
 using namespace std;
