@@ -10,13 +10,13 @@ int main(){
         float volume;
         float luas_permukaan;
 
-        cout << "Masukkan panjang balok: ";
+        cout << "Masukkan panjang balok: " << endl;
         cin >> panjang;
 
-        cout << "Masukkan lebar balok: ";
+        cout << "Masukkan lebar balok: " << endl;
         cin >> lebar;
 
-        cout << "Masukkan tinggi balok: ";
+        cout << "Masukkan tinggi balok: " << endl;
         cin >> tinggi;
 
         volume = panjang * lebar * tinggi;

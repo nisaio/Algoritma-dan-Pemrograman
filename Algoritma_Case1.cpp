@@ -1,7 +1,9 @@
+//Studi Kasus 1:Sistem Penggaji Karyawan
+
 #include <iostream>
-#include <string>
-#include <cmath>
-#include <iomanip>
+#include <string> //buat manggil library variabel teks
+#include <cmath> //Buat manggil  library rumus matematika
+#include <iomanip> //Buat library layout output
 
 using namespace std;
 int main() {

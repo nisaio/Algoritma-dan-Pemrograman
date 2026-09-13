@@ -1,3 +1,5 @@
+//Studi Kasus 2:Kalkulator Diskon Belajar
+
 #include <iostream>
 #include <string>
 #include <cmath>
