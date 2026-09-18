@@ -5,9 +5,14 @@
 using namespace std;
 
 int main() {
-    float height = 157;
-    float weight = 50;
+    float height;
+    float weight;
    
+    cout << "Berat badan: " << endl;
+    cin >> weight;
+    cout << "Tinggi badan: " << endl;
+    cin >> height;
+    
     // rumus bmi (berat badan (kg) / (tinggi (meter) * tinggi (meter))
     float bmi = weight / ((height / 100) * (height / 100));
 
