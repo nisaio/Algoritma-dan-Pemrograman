@@ -37,11 +37,11 @@ int main() {
         TarifPerJam = 250000;
     }
     else{
-        cout << "Posisi tidak valid"; //misal yang posisi yg dimasukin gada di opsi ntar keluar ini
+        cout << "Posisi tidak valid. "; //misal yang posisi yg dimasukin gada di opsi ntar keluar ini
     }
 
     int Total = JamKerja * TarifPerJam;
 
-    cout << "Selamat " << Nama << " gaji kamu adalah: " << Total;
+    cout << "Selamat " << Nama << " gaji kamu adalah: Rp" << Total << ".00";
     return 0;
 }
