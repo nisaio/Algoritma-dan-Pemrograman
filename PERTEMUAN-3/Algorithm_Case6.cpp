@@ -26,4 +26,6 @@ int main()
         cout << setw(15) << "Kondisi Suhu " << ": " << "Cuaca Normal" << endl;
     else
         cout << setw(15) << "Kondisi Suhu " << ": " << "Cuaca Dingin" << endl;
+
+    return 0;
 }

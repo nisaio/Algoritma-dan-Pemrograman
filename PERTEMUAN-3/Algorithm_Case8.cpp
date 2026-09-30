@@ -36,4 +36,6 @@ int main()
         cout << setw(30) << "Status Kebutuhan Cat" << ": " << "Sedikit" << endl;
     else
         cout << setw(30) << "Status Kebutuhan Cat" << ": " << "Tidak ada" << endl;
+
+    return 0;
 }

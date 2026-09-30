@@ -30,4 +30,6 @@ int main()
     cout << setw(15) << "Rata-rata" << ": " << fixed << setprecision(2) << rataRata << endl;
     cout << setw(15) << "Standar Deviasi" << ": " << fixed << setprecision(2) << sqrt(totalSelisihKuadrat/size(angka)) << endl;
     cout << setw(15) << "Variasi" << ": Variasi " << (sqrt(totalSelisihKuadrat/size(angka))>2? "Tinggi" : "Rendah") << endl;
+
+    return 0;
 }

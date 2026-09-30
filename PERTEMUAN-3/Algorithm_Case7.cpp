@@ -28,4 +28,6 @@ int main()
         cout << setw(30) << "Total Biaya Bahan Bakar " << ": " << "Boros" << endl;
     else
         cout << setw(30) << "Total Biaya Bahan Bakar " << ": " << "Ini mah gk jalan" << endl;
+
+    return 0;
 }

@@ -27,4 +27,6 @@ int main()
         cout << setw(20) << "Status Badan Ideal " << ": berlebih (overweight)" << endl;
     else
         cout << setw(20) << "Status Badan Ideal " << ": Obesitas" << endl;
+    
+    return 0;
 }
