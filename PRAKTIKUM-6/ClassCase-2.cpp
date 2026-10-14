@@ -12,5 +12,5 @@ int main() {
             maxVal = arr[i];
         }
     }
-    cout << "Nilai terbesarL: " << maxVal << endl;
+    cout << "Nilai terbesar: " << maxVal << endl;
 }
